@@ -7,9 +7,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansSilo", "OrleansSilo\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansClient", "OrleansClient\OrleansClient.csproj", "{953A245A-587E-4F1E-BE61-8A67EB356865}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Interfaces", "HelloWorld.Interfaces\HelloWorld.Interfaces.csproj", "{595BE4AA-1674-4612-8880-148B0229D92C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld.Interfaces", "HelloWorld.Interfaces\HelloWorld.Interfaces.csproj", "{595BE4AA-1674-4612-8880-148B0229D92C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Grains", "HelloWorld.Grains\HelloWorld.Grains.csproj", "{DF18ED71-BB3C-492E-B263-46A46F1C3279}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld.Grains", "HelloWorld.Grains\HelloWorld.Grains.csproj", "{DF18ED71-BB3C-492E-B263-46A46F1C3279}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{A4830E54-4380-49C1-BA60-6E62ED56F2E3}"
+	ProjectSection(SolutionItems) = preProject
+		build.ps1 = build.ps1
+		Dockerfile = Dockerfile
+		NuGet.config = NuGet.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
