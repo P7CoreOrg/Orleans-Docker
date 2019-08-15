@@ -1,0 +1,19 @@
+version: '3'
+
+networks:
+  dev:
+    external:
+      name: dev
+
+services:
+  
+  silo:
+    image: dotnetcore/orleanssilo:latest
+    networks:
+      - dev
+
+volumes:
+  redisdata:
+    external: true    
+  rabbitmqdata:
+    external: true

@@ -13,9 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld.Grains", "HelloW
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{A4830E54-4380-49C1-BA60-6E62ED56F2E3}"
 	ProjectSection(SolutionItems) = preProject
+		.env = .env
+		build-images.ps1 = build-images.ps1
+		build-N-run-docker-compose.ps1 = build-N-run-docker-compose.ps1
 		build.ps1 = build.ps1
+		docker-compose.yml = docker-compose.yml
 		Dockerfile = Dockerfile
+		make-cert.ps1 = make-cert.ps1
 		NuGet.config = NuGet.config
+		run-docker-compose.ps1 = run-docker-compose.ps1
 	EndProjectSection
 EndProject
 Global
